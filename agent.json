@@ -1,0 +1,14 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 100073100892,
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/100073100892/locations/us/collections/default_collection/engines/927adda6-b4d4-4a0b-9c2d-12e8982b4bf7"
+  },
+  "startPlaybook": "Sanicle StateSync Agent"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "e718c26a-40f6-4f12-b4d8-78b85bbfe9d0",
+  "displayName": "BookAppointment",
+  "goal": "Assistance is needed in scheduling meetings with government officials, including the Governor and state employees.",
+  "steps": [ {
+    "text": "You have to ask for timing and date if not mentions."
+  }, {
+    "text": "if the date and time is already mentions"
+  }, {
+    "text": "then confim it."
+  } ]
+}

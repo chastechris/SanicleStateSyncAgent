@@ -1,0 +1,13 @@
+{
+  "name": "f2481ab0-776b-4a31-bd52-21f9bd96ea87",
+  "playbookInput": {
+    "precedingConversationSummary": "Schedule a meeting with the governor for tomorrow at 10 AM."
+  },
+  "playbookOutput": {
+    "executionSummary": "The meeting with the governor is scheduled for tomorrow at 10 AM. Anything else I can assist you with?"
+  },
+  "displayName": "BookAppointment",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "undetected"
+}

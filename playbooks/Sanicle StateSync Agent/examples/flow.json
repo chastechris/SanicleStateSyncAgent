@@ -1,0 +1,95 @@
+{
+  "name": "00086ce0-6a2f-4e18-b968-02317d6d1b4d",
+  "actions": [ {
+    "playbookInvocation": {
+      "playbook": "projects/sanicle-state-sync/locations/us-central1/agents/927adda6-b4d4-4a0b-9c2d-12e8982b4bf7/playbooks/e718c26a-40f6-4f12-b4d8-78b85bbfe9d0",
+      "playbookInput": {
+        "precedingConversationSummary": "user what's to schedule meetings"
+      },
+      "playbookOutput": {
+        "executionSummary": "you with confirm it"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "would you like to continue"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "thanks Have Nice Day"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/sanicle-state-sync/locations/us-central1/agents/927adda6-b4d4-4a0b-9c2d-12e8982b4bf7/tools/00d66d0f-5461-4e54-84fa-e9f5e29168af",
+      "action": "Policy",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ],
+      "outputActionParameters": {
+        "200": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Any thing else help reguding the policy?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thank You"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/sanicle-state-sync/locations/us-central1/agents/927adda6-b4d4-4a0b-9c2d-12e8982b4bf7/playbooks/49f92041-8b0d-484d-ad00-62041084d6c9",
+      "playbookInput": {
+        "precedingConversationSummary": "user need leave"
+      },
+      "playbookOutput": {
+        "executionSummary": "you with confirm it"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Any other Help with HR"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No thanks"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great time Thank you"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "would you like to provide the time and date"
+  },
+  "displayName": "flow",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

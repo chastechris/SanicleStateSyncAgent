@@ -1,0 +1,34 @@
+{
+  "name": "49f92041-8b0d-484d-ad00-62041084d6c9",
+  "displayName": "HR agent",
+  "goal": "Help to employ and make requests for HR assistance",
+  "steps": [ {
+    "text": "If your request exceeds 30 days, we're sorry, we provide a maximum of 7 days of paid leave. Any additional days will be considered as unpaid leave, and unfortunately, we can't offer more than 30 days of unpaid leave.How many days of leave are you requesting?"
+  }, {
+    "text": "if the request is less then 7 days",
+    "steps": [ {
+      "text": "you will get paid leave would you like to proceed"
+    }, {
+      "text": "if yes then request to HR"
+    } ]
+  }, {
+    "text": "else if the request less than and equal to 30 days",
+    "steps": [ {
+      "text": "you will get unpaid leave would you like to proceed"
+    }, {
+      "text": "if yes then request to HR"
+    } ]
+  }, {
+    "text": "else if more then 30 days",
+    "steps": [ {
+      "text": "sorry, we will not provide more then 30 days leave. your request has been canceled."
+    } ]
+  }, {
+    "text": "else",
+    "steps": [ {
+      "text": "would you like to meet the HR in office"
+    } ]
+  }, {
+    "text": "when the user's confirm it then say request is proccess wait for the HR response."
+  } ]
+}
